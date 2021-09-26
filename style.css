@@ -1,21 +1,6 @@
-body{
-    color:red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-h1 {
-    color: blue;
-}
-
-/* here h1 and h2 are called selectors. */
-/* there are different ways of selecting,via tags,via class,via attributes,via Id,via lot of things */
-h3{
-    color: green;
-}
-
-#lib-header {
-    color: grey;
-}
-
-.para {
-    color: black;
+body {
+    font-family: 'Montserrat',
+     sans-serif;
 }
