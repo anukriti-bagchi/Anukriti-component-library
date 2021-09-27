@@ -47,3 +47,14 @@ hr {
 }
 
 /* look into BEM naming convention for CSS */
+/* lists */
+
+.list-non-bullet {
+    list-style: name;
+}
+
+.list-item-inline {
+    dislay: inline;
+    padding: 0rem 0.5 rem;
+    
+}
