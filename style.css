@@ -8,13 +8,17 @@ body {
      sans-serif;
 }
 
+hr {
+    margin: 2rem 0rem;
+}
+
 /* container */
 
 .container {
    
-    padding-left: 1rem;
-    padding-right: 1rem;
-    /* can also be written as padding: 0rem 1rem;  */
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
+    padding: 0rem 1rem; 
 }
 
 .container-center {
@@ -24,18 +28,22 @@ body {
 
 /* links */
 .link {
-      link-decoration: none;
+    text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
-.primary-link {
+.link-primary {
     background-color: var
     (--primary-color);
     border-radius: 0.5rem;
     color: white;
 }
-.secondary-link {
-    color:var(--primary-color);
+
+.link-secondary {
+    color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px
+    border: 1px solid var
+    (--primary-color);
 }
+
+/* look into BEM naming convention for CSS */
