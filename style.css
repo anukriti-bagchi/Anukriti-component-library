@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #3B82F6 ;
+    --dark-gray: #6B7280;
 }
 body {
     font-family: 'Montserrat',
@@ -52,7 +53,7 @@ hr {
 }
 
 .list-item-inline {
-    dislay: inline;
+    display: flex;
     padding: 0rem 0.5 rem;
  
 }
@@ -69,6 +70,7 @@ hr {
     font-weight: bold;
 }
 .navigation .nav-pills {
+    display: flex;
     text-align: right;
 }
 
@@ -79,4 +81,20 @@ hr {
     font-weight: bold;
 }
 
+/* header */
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading .heading-inverted {
+    padding-top: 1rem;
+    color: var(--primary-color);
+} 
 
