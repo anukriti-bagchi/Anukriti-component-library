@@ -93,6 +93,11 @@ hr {
     margin: auto;
 }
 
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
 .hero .hero-heading .heading-inverted {
     padding-top: 1rem;
     color: var(--primary-color);
